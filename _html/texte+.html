@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>next adjacent demo</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+<body>
+    <label for="name">Name:</label>
+    <input name="name" id="name">
+    <form>
+        <label for="name">Name:</label>
+        <input name="name" id="name">
+        <fieldset>
+            <input name="newsletter" id="newsletter">
+            <label for="newsletter">Newsletter:</label>
+
+        </fieldset>
+    </form>
+    <label for="name">Name:</label>
+    <input name="name" id="name">
+
+    <script>
+        $("label + input").css("color", "blue").val("Labeled!");
+    </script>
+
+</body>
+
+</html>
