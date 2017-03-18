@@ -1,0 +1,43 @@
+.impar{
+    background: #a0a0a0;
+}
+
+.destaque{
+    background: black;
+    color: white;
+}
+
+img.icone{
+    height: 10px;
+    width: 10px;
+    margin-left: 10px;
+    background-color: gray;
+}
+
+
+.tooltip{
+    width: 180px;
+    padding: 2px 4px;
+    margin-top:25px;
+    border: 1px solid #000;
+    color: #000;
+    background: #DDD;
+    position: absolute;
+}
+
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-size: 13px;
+}
+
+.sub th{
+    background-color: gray;
+}
+

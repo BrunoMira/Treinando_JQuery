@@ -1,0 +1,25 @@
+.impar{
+    background: #a0a0a0;
+}
+
+.destaque{
+    background: black;
+    color: white;
+}
+
+.easterEgg{
+    background: red;
+    font-size: 30px;
+}
+
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center
+}
+
+th {
+    background-color: black;
+    color: white;
+    font-size: 13px;
+}
